@@ -70,8 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Notes
 
 By inspecting the code in src/index.js, in the beginning, there are three React components:
-<ul>
-    Square
-    Board
-    Game
-</ul>
+- Square
+- Board
+- Game
