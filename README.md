@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Notes
+
+By inspecting the code in src/index.js, in the beginning, there are three React components:
+<ul>
+    Square
+    Board
+    Game
+</ul>
