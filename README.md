@@ -86,5 +86,9 @@ Making an interactive component:
 
 - Let the Square component "remember" that it got clicked with `this.state`:
     - Initiliase the state by adding a `constructor`
-    
-    > And fill it with an "X" mark 
+        > In JavaScript classes, you need to always call super when defining the constructor of a subclass. All React component classes that have a constructor should start with a super(props) call.
+    - Change the Square's `render` method to display the current state's value when clicked, with `this.state.value` inside the `<button> tag</br >
+        > Replace `props` with `state`</br >
+        > Replace the `onClick={...}` event handler after the `=>` with `this.setState({value: 'X'})}`. 
+    > And fill it with an "X" mark</br >
+    - Separate className and onClick props in different lines
