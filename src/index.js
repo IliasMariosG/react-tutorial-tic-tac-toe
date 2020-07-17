@@ -4,6 +4,13 @@ import './index.css';
 
 // 'Square' component
 class Square extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+    };
+  }
+  
   render() {
     return (
       // Use arrow function syntax
