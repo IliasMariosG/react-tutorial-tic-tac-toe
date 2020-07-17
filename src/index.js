@@ -7,7 +7,8 @@ class Square extends React.Component {
   render() {
     return (
       <button className="square">
-        {/* TODO */}
+        // {Change Square’s render method to show that value}
+        {this.props.value}
       </button>
     );
   }
