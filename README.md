@@ -82,4 +82,9 @@ Passing a prop with `this.props.value`:
 
 Making an interactive component:
 - See an alert every time you click anywhere inside of a square with `onClick={function() { alert('click'); }}` or `onclick={() => alert('click')}`</br >
-    > Change the button tag that is returned from the Square component’s render() function 
+    > Change the button tag that is returned from the Square component’s render() function
+
+- Let the Square component "remember" that it got clicked with `this.state`:
+    - Initiliase the state by adding a `constructor`
+    
+    > And fill it with an "X" mark 
