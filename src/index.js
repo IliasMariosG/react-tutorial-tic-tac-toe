@@ -6,10 +6,9 @@ import './index.css';
 class Square extends React.Component {
   render() {
     return (
-      // Change Square’s render method to show that valuechange the button tag that is
-      // returned from the Square component’s render() function
-      <button className="square" onClick={function() {
-alert('click'); }}>
+      // Use arrow function syntax
+      <button className="square" onClick={() =>
+alert('click')}>
         {this.props.value}
       </button>
     );
