@@ -73,3 +73,9 @@ By inspecting the code in src/index.js, in the beginning, there are three React 
 - Square
 - Board
 - Game
+
+...
+
+Passing a prop with `this.props.value`:
+
+> You’ve just “passed a prop” from a parent Board component to a child Square component. Passing props is how information flows in React apps, from parents to children.
