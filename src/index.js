@@ -6,8 +6,8 @@ import './index.css';
 class Square extends React.Component {
   render() {
     return (
+      // Change Square’s render method to show that value
       <button className="square">
-        // {Change Square’s render method to show that value}
         {this.props.value}
       </button>
     );
