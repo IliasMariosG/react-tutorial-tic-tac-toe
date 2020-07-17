@@ -81,5 +81,5 @@ Passing a prop with `this.props.value`:
 > You’ve just “passed a prop” from a parent Board component to a child Square component. Passing props is how information flows in React apps, from parents to children.
 
 Making an interactive component:
-- See an alert every time you click anywhere inside of a square with `onClick={function() { alert('click'); }}`</br >
-    > change the button tag that is returned from the Square component’s render() function 
+- See an alert every time you click anywhere inside of a square with `onClick={function() { alert('click'); }}` or `onclick={() => alert('click')}`</br >
+    > Change the button tag that is returned from the Square component’s render() function 
